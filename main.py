@@ -6,7 +6,7 @@ from solution_manager import SolutionManager
 from generate_data import create_dummy_data
 
 # Configuration
-DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
+DATA_DIR = os.path.join(os.path.dirname(__file__), '.', 'data')
 INPUT_FILE = 'test_data_5000.csv'
 OUTPUT_FILE = 'submission_modelA.csv'
 

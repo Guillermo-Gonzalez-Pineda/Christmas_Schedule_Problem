@@ -69,7 +69,7 @@ def create_dummy_data(
     total_people = df['nrMembers'].sum()
     
     # Write to data directory
-    output_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+    output_dir = os.path.join(os.path.dirname(__file__), '.', 'data')
     os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, filename)
     
