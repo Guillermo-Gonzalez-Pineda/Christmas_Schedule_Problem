@@ -46,7 +46,7 @@ class SantaSolver:
             total_happiness = 0
             for f in families:
                 for rank, day in enumerate(f.preferences):
-                    # We only sum points if the assignment variable x is 1
+                    # Only sum points if the assignment variable x is 1
                     total_happiness += m.x[f.id, day] * self.HAPPINESS_POINTS[rank]
             return total_happiness
 
@@ -56,7 +56,7 @@ class SantaSolver:
 
         # C1: Each family assigned to AT MOST 1 day (or none)
         def one_day_rule(m, fam_id):
-            # We recover the family object to iterate only its preferences
+            # Get the family object to iterate only its preferences
             current_fam = next((f for f in families if f.id == fam_id), None)
             return sum(m.x[fam_id, d] for d in current_fam.preferences) <= 1
         
