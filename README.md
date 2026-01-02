@@ -1,4 +1,4 @@
-# 🎄 Santa Workshop Optimizer (Model A)
+# 🎄 Santa Workshop Optimizer
 
 **Strategy:** Happiness Maximization & Strict Operational Efficiency.
 
