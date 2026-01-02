@@ -6,7 +6,7 @@ This project implements an **Operations Research (MIP)** solution to solve the S
 
 ---
 
-## 🧠 Model A Philosophy
+## 🧠 Model Philosophy
 
 Unlike coverage-focused approaches that prioritize filling slots at any cost, this model follows a **"Quality over Quantity"** policy:
 
